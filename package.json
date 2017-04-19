@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "httpp-proxy",
-    "description": "api documentation for [httpp-proxy (v0.10.3)](https://github.com/InstantWebP2P/node-httpp-proxy#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-httpp-proxy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-httpp-proxy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-httpp-proxy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-httpp-proxy)",
+    "description": "#### api documentation for  [httpp-proxy (v0.10.3)](https://github.com/InstantWebP2P/node-httpp-proxy#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-httpp-proxy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-httpp-proxy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-httpp-proxy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-httpp-proxy)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "httpp-proxy": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
